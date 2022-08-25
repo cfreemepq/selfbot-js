@@ -4,7 +4,7 @@ const { token } = require("./config.json");
 
 client.on('ready', async () => {
   console.log(`${client.user.username} is ready!`);
-  client.user.setActivity("usar")
+  client.user.setActivity("github.com/cfreemepq")
 })
 
 client.on("message", message => {
